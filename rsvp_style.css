@@ -159,6 +159,25 @@ h1, h2, h3, h4, h5, h6 {
       left: 50%;
       width: 24%;
     }
+	
+
+	.cover-invitation-text {
+	  position: absolute;
+	  top: 25.5%;
+	  left: 0;
+	  width: 110%;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  gap: -2px;
+
+	  color: #05472A;
+	  font-family: var(--font-title);
+	  font-style: italic;
+	  font-size: 10px;
+	  text-align: center;
+	}
+	
 
     /* =====================================
        PAGE 2 — CEREMONY DETAILS
@@ -411,18 +430,18 @@ h1, h2, h3, h4, h5, h6 {
       top: 62.2%;
     }
 
-    #guestMessage {
-  top: 66.9%;
-  height: 7.2%;
-  padding: 7px 10px;
-  box-sizing: border-box;
+	#guestMessage {
+	  top: 66.9%;
+	  height: 7.2%;
+	  padding: 9px 10px;
+	  box-sizing: border-box;s
 
-  font-size: clamp(10px, 2.4cqw, 13px);
-  line-height: 1.4;
+	  font-size: clamp(10px, 2.4cqw, 13px);
+	  line-height: 1.4;
 
-  resize: none;
-  overflow-y: auto;
-}
+	  resize: none;
+	  overflow-y: auto;
+	}
 
     #dietary {
       top: 75.8%;
