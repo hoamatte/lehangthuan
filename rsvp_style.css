@@ -163,6 +163,9 @@ h1, h2, h3, h4, h5, h6 {
 
 	.cover-invitation-text {
 	  position: absolute;
+	  opacity: 1;
+	  animation: none;
+      transition: none;
 	  top: 25.5%;
 	  left: 0;
 	  width: 110%;
