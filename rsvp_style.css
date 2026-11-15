@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
     ===================================== */
 
     .cover-action {
-      position: absolute;
+      position: relative;
       top: 87.5%;
       height: 5%;
       padding: 0;
@@ -161,26 +161,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 	
 
-	.cover-invitation-text {
-	  position: absolute;
-	  opacity: 1;
-	  animation: none;
-      transition: none;
-	  top: 25.5%;
-	  left: 0;
-	  width: 110%;
-	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
-	  gap: -2px;
-
-	  color: #05472A;
-	  font-family: var(--font-title);
-	  font-style: italic;
-	  font-size: 10px;
-	  text-align: center;
-	}
-	
 
     /* =====================================
        PAGE 2 — CEREMONY DETAILS
@@ -383,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .rsvp-title {
       position: absolute;
-      top: 21.3%;
+      top: 19.8%;
       left: 12%;
       width: 76%;
       margin: 0;
