@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
     ===================================== */
 
     .cover-action {
-      position: relative;
+      position: absolute;
       top: 87.5%;
       height: 5%;
       padding: 0;
