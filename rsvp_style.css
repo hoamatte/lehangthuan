@@ -140,28 +140,38 @@ h1, h2, h3, h4, h5, h6 {
        PAGE 1 — COVER
     ===================================== */
 
-    .cover-action {
-      position: absolute;
-      top: 87.1%;
-      height: 3%;
-      padding: 0;
-      border: none;
-      border-radius: 30px;
-      background: transparent;
-    }
+
+	.cover-action {
+	  position: absolute;
+	  top: 87.5%;
+	  height: 5%;
+	  padding: 0;
+	  border: none;
+	  border-radius: 30px;
+	  background: transparent;
+
+	  -webkit-tap-highlight-color: transparent;
+	  outline: none;
+	  box-shadow: none;
+	  appearance: none;
+	  -webkit-appearance: none;
+	}
+
+	.cover-action:active,
+	.cover-action:focus {
+	  background: transparent;
+	  box-shadow: none;
+	}
 
     #openItalian {
-      left: 30%;
+      left: 31%;
       width: 18%;
     }
 
     #openVietnamese {
-      left: 49%;
+      left: 50%;
       width: 24%;
     }
-	
-
-
     /* =====================================
        PAGE 2 — CEREMONY DETAILS
     ===================================== */
@@ -677,6 +687,28 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-body);
   font-size: clamp(8px, 2cqw, 11px);
   color: var(--brown);
+}
+
+
+/* Remove gray tap highlight from all buttons */
+button,
+a,
+input[type="button"],
+input[type="submit"] {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Remove unwanted gray background on click */
+button:active,
+button:focus:not(:focus-visible) {
+  box-shadow: none;
+}
+
+/* Keep keyboard navigation accessible */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #05472A;
+  outline-offset: 3px;
 }
 
 
